@@ -1,0 +1,127 @@
+body, h1, .head, .body, .tablecontent
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.head,.body{
+    background-color: rgb(227, 227, 235);
+}
+.head
+{
+    height: 150px;
+    width: 100%;
+     
+}
+
+.head #back
+{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 65px;
+    left: 4%;
+    z-index: 100;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#back:hover
+{
+    background-color: #EBD7FF;
+}
+
+#result
+{ 
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body
+{
+    height: 650px;
+    width: 100%;
+}
+
+.searchbar
+{
+    display:inline-block;
+    margin-left: 10%;
+    position:relative;
+    left: 32%;
+}
+#search
+{
+    margin-top: 50px;
+    border-color: #000000;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 10px ;
+    width: 500px;
+}
+
+#searchbt
+{
+    border: 2px solid black;
+    margin-left: 35px;
+    border-radius: 15px;
+    padding: 8px 40px;
+    color:black ;
+    background-color: white;
+}
+#filter
+{
+    border: 2px solid black;
+    margin-left: 35px;
+    border-radius: 15px;
+    padding: 8px 40px;
+    color:black ;
+    background-color: white;
+    
+}
+
+#searchbt:hover, #filterbt:hover
+{
+    background-color:#b8f0ed ;
+    border-color: #5C5470 ;
+    color: #5C5470;
+}
+
+.tablecontent
+{
+    margin-top: 85px;
+}
+
+.group{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: underline #dca66d93;
+    position: relative;
+    left: 75px;
+    top: 100px;
+    border-radius: 20px;
+}
+.group_cnt{
+    max-width: 300px;
+    color: #d39048;
+    position:relative;
+    border-top-right-radius: 19px;
+    border-top-left-radius: 19px;
+}
+.foot
+{
+    text-align: center;
+}
